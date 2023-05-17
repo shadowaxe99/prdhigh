@@ -1,0 +1,25 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Selection</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to TaskMaster</h1>
+        <form id="task_selection_form" action="/execute_task" method="post">
+            <h2>Select a Task</h2>
+            <select name="task">
+                <option value="git_clone">Clone a Git Repository</option>
+                <option value="pdf_upload">Upload a PDF</option>
+                <option value="code_upload">Upload Code</option>
+            </select>
+            <input type="submit" value="Execute Task">
+        </form>
+    </div>
+</body>
+</html>
+```

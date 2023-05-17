@@ -1,0 +1,25 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Feedback</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TaskMaster Feedback</h1>
+        <form id="feedback_form" method="POST">
+            <div class="form-group">
+                <label for="feedback">Your Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <div id="feedback_submission_success" class="message hidden">Your feedback has been submitted successfully. Thank you!</div>
+    </div>
+    <script src="../static/js/feedback.js"></script>
+</body>
+</html>
+```
